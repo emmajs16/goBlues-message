@@ -49,3 +49,28 @@ h1{
 	margin-left: -16.5px;
 	margin-bottom: -33px;
 }
+@media screen and (max-width: 900px) {
+  #logo{
+    height: 150px;
+  }
+  }
+
+
+@media screen and (max-width: 600px) {
+  #logo{
+    height: 100px;
+  }
+  body{
+    display: inline;
+  }
+}
+@media screen and (max-width: 300px) {
+  #logo{
+    height: 50px;
+    align-items: center;
+  }
+  body{
+    display: inline;
+    align-items: center;
+  }
+}
